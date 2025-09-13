@@ -1,0 +1,12 @@
+{
+  "name": "Claude Code Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code",
+  "forwardPorts": [],
+  "remoteUser": "vscode"
+}
